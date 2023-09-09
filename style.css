@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.f{
+    /* text-align: center; */
+    /* margin: 50px; */
+    padding: 20px 300px;
+    background-color:rgb(243, 158, 12);
+    height:40px;
+    width: 823PX;
+    color: white;
+
+}
+.header{
+    /* height: 80px; */
+    /* width: 2000px; */
+
+}
+body{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./logo/bc.jpg);
+    min-height: 800px;
+    width: 90%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.nav{
+    display: flex;
+    margin: 2px 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 200px;
+    padding: 30px;
+    padding-left: 0px;
+}
+
+
+/* .nav-links ul li{
+    display: flex;
+    float: right;
+} */
+
+div ul li{
+    /* display: inline-block; */
+    display: flex;
+    float: right;
+    padding: 30px;
+    /* margin-top: 20px; */
+    position: relative;
+    bottom: 100px;
+    /* float: right; */
+    /* padding-right: 30px 100px ; */
+    /* padding: 20px 300px; */
+    bottom: 100PX;
+    color: white;
+    /* text-decoration: none; */
+    font-size: 13px;
+}
+div ul li a{
+    text-decoration: none;
+    color: white;
+}
+.text h1{
+    /* text-align: center; */
+    margin-left: 550px;
+    margin-top: 80px;
+    font-size: 50px;
+    color: white;
+    
+}
+.text p{
+    text-align: center;
+    margin-left: 300px;
+    font-size: 20px;
+    color: white;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 1rem 4%;
+}
+.box{
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 18rem;
+    width: 19rem;
+    padding: 0.5rem 0.5rem;
+    /* margin-top: 40px; */
+    margin: 6px;
+}
+.button{
+    height: 30px;
+    width: 250px;
+    margin: 30px;
+    border-radius: 20px;
+    background-color: rgb(241, 141, 11);
+    border-style: none;
+    color: white;
+}
+.media{
+    padding-top: 20px;
+    color: aliceblue;
+}
+.m-p{
+    padding-top: 20px;
+    color: aliceblue;
+}
